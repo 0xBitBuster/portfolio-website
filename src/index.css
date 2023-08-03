@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    color: #252424;
+    background-color: #fcf4ee;
+    caret-color: red;
+}
+
+img {
+    pointer-events: none;
+}
+
+::-moz-selection {
+    background: #f7cb45;
+}
+::selection {
+    background: #f7cb45;
+}
