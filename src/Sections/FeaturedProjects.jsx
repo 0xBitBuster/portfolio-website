@@ -7,7 +7,7 @@ function FeaturedProjects() {
         
             <div className="flex flex-col sm:flex-row w-screen">
                 <div className="sm:w-1/2 bg-[url(/images/talking_chatgpt.png)] bg-cover bg-center bg-no-repeat brightness-95 hover:brightness-75 duration-300 min-h-[400px] md:min-h-[70vh]"></div>
-                <div className="flex flex-col justify-center sm:w-1/2 bg-white p-12">
+                <div className="flex flex-col justify-center sm:w-1/2 bg-white p-8 sm:p-12">
                     <div className="flex mb-8">
                         <Tag text="JavaScript" color="sandstorm" />
                         <Tag text="HTML" color="red-400" />
@@ -19,7 +19,7 @@ function FeaturedProjects() {
                 </div>
             </div>
             <div className="flex flex-col-reverse sm:flex-row w-screen">
-                <div className="flex flex-col justify-center sm:w-1/2 bg-white p-12">
+                <div className="flex flex-col justify-center sm:w-1/2 bg-white p-8 sm:p-12">
                     <div className="flex mb-8">
                         <Tag text="Next.js" color="fuchsia-400" />
                         <Tag text="Node.js" color="green-400" />

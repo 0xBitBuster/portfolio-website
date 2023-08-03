@@ -1,7 +1,7 @@
 function AboutMe() {
     return (    
         <section className="flex flex-col md:flex-row" id="aboutme">
-            <div className="md:w-1/2 lg:w-2/5 bg-white p-12">
+            <div className="md:w-1/2 lg:w-2/5 bg-white p-6 sm:p-12">
                 <h2 className="text-5xl font-semibold mb-7">About me</h2>
                 <p className="text-lg">
                     Hi! I’m Tobias Scharl, a 16 year old based in Germany, software developer, penetration tester and gamer. <br /><br />
