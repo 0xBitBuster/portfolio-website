@@ -8,7 +8,7 @@ function Navbar() {
     }, [isToggled])
 
     return (
-        <div className="flex items-center justify-between px-10 my-6 mx-auto max-w-[1248px]">
+        <nav className="flex items-center justify-between px-10 my-6 mx-auto max-w-[1248px]">
             <div>
                 <img src="/logo.png" className="max-w-[220px] hover:opacity-90" />
             </div>
@@ -33,7 +33,7 @@ function Navbar() {
                     <a className="cursor-pointer hover:underline" href="#contact" onClick={() => setIsToggled(!isToggled)}>Contact</a>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
