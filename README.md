@@ -34,7 +34,7 @@ This is my personal portfolio website in Cartoon-Style, made with React.js & Tai
 
 ```bash
 
-git clone https://github.com/bananajoey88/portfolio-website
+git clone https://github.com/0xBitBuster/portfolio-website.git
 
 ```
 
