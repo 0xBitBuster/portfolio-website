@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { throttle } from "lodash";
+import { motion } from "framer-motion";
 
 function HeroSection() {
     const characterRef = useRef(null)
@@ -34,7 +35,12 @@ function HeroSection() {
 
     return (
         <section className="flex flex-col md:flex-row justify-between mx-auto max-w-[1248px] pt-14 md:pt-28 px-6 md:px-10">
-            <div className="max-w-xl">
+            <motion.div 
+                initial={{ opacity:0 }}
+                animate={{ opacity:1 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="max-w-xl"
+            >
                 <p className="text-xl text-description">Hi, my name is Tobi.</p>
                 <h1 className="text-4xl md:text-6xl font-bold my-5 md:leading-[75px]">I do Pentests & develop Software</h1>
                 <p className="text-xl text-description mb-9">
@@ -46,7 +52,7 @@ function HeroSection() {
                         Get in touch
                     </span>
                 </a>
-            </div>
+            </motion.div>
             <div className="w-1/2 md:w-full mt-12 md:mt-0 mx-auto flex items-center justify-center">
                 <div className="relative">
                     <img src="/illustrations/character.png" alt="" className="select-none" ref={characterRef} />

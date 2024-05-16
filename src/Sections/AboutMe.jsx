@@ -4,7 +4,7 @@ function AboutMe() {
             <div className="md:w-1/2 lg:w-2/5 bg-white p-6 sm:p-12">
                 <h2 className="text-5xl font-semibold mb-7">About me</h2>
                 <p className="text-lg">
-                    Hi! I’m Tobias Scharl, a 16 year old based in Germany, software developer, penetration tester and gamer. <br /><br />
+                    Hi! I’m Tobias Scharl, a 16 year old based in Germany, software developer and penetration tester. <br /><br />
                     Currently, I’m focused on learning Penetration testing by getting my hands dirty with <span className="px-1 py-0.5 bg-[#fcf4ee]">HackTheBox’s Academy.</span> <br /><br />
                     I’m a very passionate and curious person, especially when it comes to thinking about solving problems.<br /><br />
                     It all began 4 years ago, where I developed my interest for coding websites using <span className="px-1 py-0.5 bg-[#fcf4ee]">HTML, CSS and JS.</span> <br /><br />
