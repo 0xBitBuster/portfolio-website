@@ -36,9 +36,9 @@ function HeroSection() {
     return (
         <section className="flex flex-col md:flex-row justify-between mx-auto max-w-[1248px] pt-14 md:pt-28 px-6 md:px-10">
             <motion.div 
-                initial={{ opacity:0 }}
-                animate={{ opacity:1 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
+                initial={{ opacity: 0, y: 75 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
                 className="max-w-xl"
             >
                 <p className="text-xl text-description">Hi, my name is Tobi.</p>
@@ -53,13 +53,18 @@ function HeroSection() {
                     </span>
                 </a>
             </motion.div>
-            <div className="w-1/2 md:w-full mt-12 md:mt-0 mx-auto flex items-center justify-center">
+            <motion.div 
+                initial={{ opacity: 0, y: 75 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+                className="w-1/2 md:w-full mt-12 md:mt-0 mx-auto flex items-center justify-center"
+            >
                 <div className="relative">
                     <img src="/illustrations/character.png" alt="" className="select-none" ref={characterRef} />
-                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[42%] left-[40%] select-none w-[10%] lg:w-auto" ref={leftEyeRef} />
-                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[42%] right-[36%] select-none w-[10%] lg:w-auto" ref={rightEyeRef} />
+                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] left-[40%] select-none w-[10%] lg:w-auto" ref={leftEyeRef} />
+                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] right-[36%] select-none w-[10%] lg:w-auto" ref={rightEyeRef} />
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 }
