@@ -61,8 +61,8 @@ function HeroSection() {
             >
                 <div className="relative">
                     <img src="/illustrations/character.png" alt="" className="select-none" ref={characterRef} />
-                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] left-[40%] select-none w-[10%] lg:w-auto" ref={leftEyeRef} />
-                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] right-[36%] select-none w-[10%] lg:w-auto" ref={rightEyeRef} />
+                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] left-[40%] select-none w-[10%] md:w-[7%] lg:w-auto" ref={leftEyeRef} />
+                    <img src="/illustrations/character_eye.png" alt="" className="absolute top-[43%] right-[36%] select-none w-[10%] md:w-[7%] lg:w-auto" ref={rightEyeRef} />
                 </div>
             </motion.div>
         </section>
