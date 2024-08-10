@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Work Sans", sans-serif;
-    color: #252424;
-    background-color: #fcf4ee;
+  font-family: "Work Sans", sans-serif;
+  color: #252424;
+  background-color: #fcf4ee;
 }
 
 img {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 ::-moz-selection {
-    background: #f7cb45;
+  background: #f7cb45;
 }
 ::selection {
-    background: #f7cb45;
+  background: #f7cb45;
 }

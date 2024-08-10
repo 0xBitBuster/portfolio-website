@@ -1,4 +1,9 @@
 import { motion } from "framer-motion";
+import { calculateAge, getYearsSince } from "../helpers/date";
+
+const birthday = new Date('2007-01-01'); // Birthday
+const startedCoding = new Date('2019-01-01'); // Started coding
+const startedPentesting = new Date('2022-06-01'); // Started pentesting
 
 function AboutMe() {
     return (
@@ -21,7 +26,7 @@ function AboutMe() {
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}    
                     >
-                        Hi! I’m Tobias Scharl, a 16 year old based in Germany, software developer and penetration tester.
+                        Hi! I’m Tobias Scharl, a {calculateAge(birthday)} year old based in Germany, software developer and penetration tester.
                     </motion.p>
                     <motion.p 
                         className="mb-6"
@@ -39,7 +44,7 @@ function AboutMe() {
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}    
                     >
-                        It all began 4 years ago, where I developed my interest for coding websites using <span className="px-1 py-0.5 bg-[#fcf4ee]">HTML, CSS and JS.</span>
+                        It all began {getYearsSince(startedCoding)} years ago, where I developed my interest for coding websites using <span className="px-1 py-0.5 bg-[#fcf4ee]">HTML, CSS and JS.</span>
                     </motion.p>
                     <motion.p 
                         className="mb-6"
@@ -75,7 +80,7 @@ function AboutMe() {
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}    
                     >
-                    And here we are, mid 2022. Everyone is talking about bitcoin, hackers and the rise of AI. That’s the moment I wanted to find out more about hacking and ever since started persuing my pentesting career.
+                    And here we are, mid {startedPentesting.getFullYear()}. Everyone is talking about bitcoin, hackers and the rise of AI. That’s the moment I wanted to find out more about hacking and ever since started persuing my pentesting career.
                     </motion.p>
                     <motion.p 
                         className="mb-6"
