@@ -84,7 +84,7 @@ function FeaturedProjects() {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}
             >
-              Sycheats
+              Red or Blue Pill - The Game
             </motion.h3>
             <motion.p
               className="text-description text-xl mb-6"
@@ -93,23 +93,23 @@ function FeaturedProjects() {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}
             >
-              Sycheats was a former platform for sharing and downloading cheats for video games. All cheats were tested
-              for malware, authentication was handled using JWTs (Access + Refresh Tokens) and Redis.
+              Embrace the Game of Choices. Red or Blue, Choose Your Reality. Just like a Would you Rather game, but better. Decide between 200+ would you rather questions.
             </motion.p>
-            <motion.p
-              className="text-lg font-semibold text-gray-500"
+            <motion.a
+              className="text-lg font-semibold group hover:text-black"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.3, delay: 0.3, ease: "backOut" }}
-              href="#"
+              href="https://redorbluepillgame.com"
+              target="_blank"
               rel="noopener"
             >
-              Website is closed
-            </motion.p>
+              Visit Website <span className="duration-300 group-hover:ml-2">→</span>
+            </motion.a>
           </div>
         </div>
-        <div className="sm:w-1/2 bg-[url(/images/sycheats.png)] bg-cover bg-center bg-no-repeat brightness-95 hover:brightness-75 duration-300 min-h-[400px] md:min-h-[70vh]"></div>
+        <div className="sm:w-1/2 bg-[url(/images/redorbluepillgame.jpg)] bg-cover bg-center bg-no-repeat brightness-95 hover:brightness-75 duration-300 min-h-[400px] md:min-h-[70vh]"></div>
       </div>
     </section>
   );
