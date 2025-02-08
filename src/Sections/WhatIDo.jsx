@@ -31,11 +31,10 @@ function WhatIDo() {
           className="rounded-3xl flex-1 bg-coal"
         >
           <div className="bg-white h-full border border-coal p-7 rounded-3xl transition-all duration-300 -translate-x-1 -translate-y-1 hover:-translate-x-2 hover:-translate-y-2">
-            <img src="/illustrations/bug.png" alt="" className="max-w-[120px] mb-6" />
-            <h3 className="text-3xl font-semibold mb-4">Penetration Tests</h3>
+            <img src="/illustrations/book.png" alt="" className="max-w-[120px] mb-6" />
+            <h3 className="text-3xl font-semibold mb-4">Book Writing</h3>
             <p>
-              I Pentest systems to uncover vulnerabilities, report them and fortify defenses to protect digital assets
-              from potential cyber threats.
+              I write easy-to-follow web development books for beginners, making learning fun and practical.
             </p>
           </div>
         </motion.div>
