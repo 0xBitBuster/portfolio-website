@@ -42,9 +42,9 @@ function HeroSection() {
         className="max-w-xl"
       >
         <p className="text-xl text-description">Hi, my name is Tobi.</p>
-        <h1 className="text-4xl md:text-6xl font-bold my-5 md:leading-[75px]">I do Pentests & develop Software</h1>
+        <h1 className="text-4xl md:text-6xl font-bold my-5 md:leading-[75px]">I write Books & develop Software</h1>
         <p className="text-xl text-description mb-9">
-          I’m a Penetration Tester from Germany. Alongside I develop both web and desktop applications
+          I’m a Book writer from Germany. Alongside I develop both web and desktop applications
           using best practices to ensure security and scaleability.
         </p>
         <a className="inline-block rounded-3xl bg-coal cursor-pointer" href="#contact">
